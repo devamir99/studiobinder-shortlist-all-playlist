@@ -10,10 +10,11 @@
 
 ## GitHub Pages
 
-1. محتویات این فولدر را در ریشه ریپازیتوری بگذارید.
-2. `git add . && git commit -m "Add cinematic handbook" && git push`
-3. Settings → Pages → Deploy from a branch → `main` / `(root)` → Save.
-4. `index.html` را باز کنید؛ برای عملکرد کامل clipboard و WebGL از localhost یا HTTPS استفاده کنید.
+انتشار به‌صورت خودکار با GitHub Actions انجام می‌شود (`.github/workflows/deploy.yml`).
+
+- هر `push` روی شاخه `main` سایت را دوباره منتشر می‌کند؛ اجرای دستی هم از **Actions → Deploy to GitHub Pages → Run workflow** ممکن است.
+- تنظیم ریپو: **Settings → Pages → Source = GitHub Actions**.
+- آدرس سایت: https://devamir99.github.io/studiobinder-shortlist-all-playlist/
 
 ## منابع و راستی‌آزمایی
 
